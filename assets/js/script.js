@@ -2,9 +2,7 @@
 
 
 
-/**
- * add Event on elements
-*/ 
+/**add Event on elements*/ 
 
 const addEventOnElem = function (elem, type, callback) {
   if (elem.length > 1) {
@@ -18,9 +16,7 @@ const addEventOnElem = function (elem, type, callback) {
 
 
 
-/**
- * navbar toggle
-*/ 
+/** navbar toggle*/ 
 
 const navbar = document.querySelector("[data-navbar]");
 const navTogglers = document.querySelectorAll("[data-nav-toggler]");
@@ -43,9 +39,7 @@ addEventOnElem(navbarLinks, "click", closeNavbar);
 
 
 
-/**
- * header & back top btn show when scroll down to 100px
-*/ 
+/**header & back top btn show when scroll down to 100px*/ 
 
 const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
