@@ -1,5 +1,5 @@
 .slider1 {
-    height: 35pt;
+    height: 120px;
     background-color: #fffcf5;
     margin: 0 auto;
     overflow: hidden;
@@ -17,7 +17,7 @@
         hsla(0, 0%, 100%, 0) 100%
     );
     content: "";
-    height: 35pt;
+    height: 120px;
     position: absolute;
     width: 100px;
     z-index: 2;
@@ -37,34 +37,34 @@
 .slider1 .slide1-track-1 {
     animation: scroll-r 30s linear infinite;
     display: flex;
-    width: 3500px;
+    width: 5000px;
 }
 
 .slider1 .slide1-track-2 {
     animation: scroll-l-modified 45s linear infinite;
     display: flex;
-    width: 3500px;
+    width: 5000px;
 }
 
 .slider1 .slide1 {
-    height: 35pt;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
 .slider1 .slide1 img {
-    padding: 1pc;
-    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    display: block;
     margin: 0 auto;
-    display: inline-block;
-    max-width: 100%;
-    height: auto;
+    padding: 0.5rem;
 }
 
 /* Animations */
-
 @keyframes scroll-r {
     0% {
         transform: translateX(-100%);
