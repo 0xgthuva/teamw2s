@@ -19,7 +19,7 @@
 
 <br />
 
-### Demo Screeshots
+### Demo Screeshots updated
 
 ![teamw2s Desktop Demo](./readme-images/desktop.png "Desktop Demo")
 
